@@ -31,7 +31,7 @@ class match():
 	def show_stat(self):
 		print(str(self.team_a)+": <" , str(self.goals_A) , "-" , str(self.goals_B) , "> :" ,str(self.team_b) , "In the game, Team:" ,str(self.team_a) + "'s possesion was" , str(self.possesion_A) + "% And Team" , str(self.team_b) + "'s possesion was:" , str(self.possesion_B) + "%")
 	def save_unfinished_match_for_a(self):
-		return(str(str(self.is_KO) + str(self.team_b) + "\n" + str(self.date) + "\n" + str(self.Manager_A) + "\n" + str(self.Manager_B)))
+		return(str(str(self.is_KO) + '\n' + str(self.team_b) + "\n" + str(self.date) + "\n" + str(self.Manager_A) + "\n" + str(self.Manager_B)))
 	def save_unfinished_match_for_b(self):
 		return(str(str(self.is_KO) + '\n' + str(self.team_a) + "\n" + str(self.date) + "\n" + str(self.Manager_B) + "\n" + str(self.Manager_A)))
 
